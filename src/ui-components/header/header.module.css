@@ -1,0 +1,40 @@
+.logo {
+  height: 5rem;
+  border-radius: 50%;
+}
+.header {
+  height: 50px;
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.5s, transform 0.1s;
+}
+button:hover {
+  background-color: #777;
+  transform: scale(1.1);
+}
+
+.lang {
+  margin-left: auto;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.lang .active {
+  background-color: antiquewhite;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,69 @@
+{
+  "firstPage": {
+    "title": "Learn Tajik language for free!",
+    "getStarted": "Get started!",
+    "tagline": "Free. Fun. Effective.",
+    "intro": "Ready to start learning Tajik the fun and easy way? Take your first lesson and unlock the world of Tajik culture!",
+    "features": {
+      "personalizedLearning": "Personalized learning",
+      "personalizedLearningDesc": "Combining the best of AI and language science, lessons are tailored to help you learn at just the right level and pace.",
+      "learnAnytimeAnywhere": "Learn anytime, anywhere"
+    },
+    "about": {
+      "title": "What is TajikClub?",
+      "desc": "TajikClub is the most effective way to learn the Tajik language. It is web-based and highly interactive. TajikClub is (and will always be) free for both individuals and schools."
+    },
+    "howItWorks": {
+      "title": "How Does it Work?",
+      "desc": "Keep practicing each lesson until you master all words and phrases. It really doesn’t take much – just a few minutes a day for one to two weeks and you will be confident in Tajik!"
+    },
+    "learnMore": "Learn more"
+  },
+
+  "reasonsPage": {
+    "title": "Why Learn Tajik?",
+    "subtitle": "All the reasons to start learning Tajik with us right now:",
+    "items": [
+      {
+        "title": "It’s a game.",
+        "desc": "Learn Tajik in an engaging and interactive way, with games and challenges."
+      },
+      {
+        "title": "Proper pronunciation guide.",
+        "desc": "We will show you the correct pronunciation for every word as you learn."
+      },
+      {
+        "title": "Levels, Badges and Stars.",
+        "desc": "Motivating achievements to help you keep progressing and build memory for words."
+      },
+      {
+        "title": "Accessibility.",
+        "desc": "TajikClub is designed for everyone, including learners with special needs."
+      },
+      {
+        "title": "Interactive experience.",
+        "desc": "Videos, games, quizzes, and fun exercises make learning enjoyable."
+      },
+      {
+        "title": "Voice over.",
+        "desc": "Every word is read aloud to improve your listening and speaking skills."
+      },
+      {
+        "title": "Performance Tracking.",
+        "desc": "Review your past lessons and see how much you have improved."
+      },
+      {
+        "title": "100% Online.",
+        "desc": "All you need is a keyboard, a device, and a web browser."
+      }
+    ],
+    "back": "Back"
+  },
+
+  "menuPage": {
+    "lesson": {
+      "title": "Lessons",
+      "goal": "Letters"
+    }
+  }
+}

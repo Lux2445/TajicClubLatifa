@@ -1,0 +1,71 @@
+h1 {
+  padding-top: 7rem;
+  font-size: 6rem;
+  margin-bottom: 10rem;
+  font-weight: 700;
+  color: rgb(255, 239, 174);
+  text-shadow: 0px 0px 2rem rgb(223, 136, 136);
+}
+.all {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.box {
+  padding: 5rem;
+  display: grid;
+  gap: 4rem;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.card {
+  margin-bottom: 3rem;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
+.card img {
+  height: 10rem;
+  width: auto;
+}
+
+.card p {
+  padding: 15px;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.card h3 {
+  color: rgb(247, 237, 170);
+  text-shadow: 0px 0px 5px rgb(141, 135, 98);
+}
+
+.card h3:hover {
+  color: rgb(252, 202, 136);
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  cursor: default;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.more {
+  display: inline-block;
+  padding: 2rem 4rem;
+  background-color: white;
+  color: rgb(15, 28, 68);
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 40px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0px 0px 20px white;
+}

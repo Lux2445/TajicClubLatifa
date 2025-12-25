@@ -1,0 +1,121 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.typetext {
+  text-wrap: wrap;
+  font-size: 4.5rem;
+  margin: 10rem 0 5rem;
+  width: 28ch;
+  font-weight: 700;
+  font-family: "Comic Relief", system-ui;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid white;
+  animation: typing 3s steps(30) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+section a {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(15, 28, 68);
+  font-size: 2rem;
+  display: inline;
+  justify-content: center;
+  margin-bottom: 20rem;
+  box-shadow: 0px 0px 20px white;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 2rem;
+  padding: 15rem 5rem 0rem 5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.features img {
+  width: 40em;
+  height: auto;
+  border-radius: 20px;
+}
+
+.features h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: rgb(151, 237, 151);
+  font-size: 4rem;
+}
+
+.features p {
+  font-size: 35px;
+  font-weight: 500;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.learn {
+  padding-top: 7rem;
+  font-size: 6rem;
+  margin-bottom: 10rem;
+  white-space: normal;
+  font-weight: 700;
+  color: rgb(255, 239, 174);
+  text-shadow: 0px 0px 2rem rgb(223, 136, 136);
+}
+
+.l1 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+
+.l1 h2 {
+  margin-top: 7rem;
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(178, 255, 144);
+}
+
+.l1 p {
+  margin: 2rem 0 5rem;
+  font-size: 2rem;
+}
+
+.more {
+  display: inline-block;
+  padding: 2rem;
+  background-color: white;
+  color: rgb(15, 28, 68);
+  font-size: 2rem;
+  font-weight: 800;
+  border-radius: 40px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 0px 0px 20px white;
+}
